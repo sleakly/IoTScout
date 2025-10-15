@@ -1,4 +1,0 @@
-zeroconf
-mac-vendor-lookup
-scapy
-rich
