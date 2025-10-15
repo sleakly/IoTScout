@@ -1,13 +1,12 @@
 
 # IoTScout
 
-IoTScout is a fast, modular tool for discovering and interacting with smart devices (IoT) on your local network. It uses mDNS/zeroconf to find devices, enriches their information, and provides interactive prompts for device-specific actions.
+IoTScout is a fast, modular tool for discovering and interacting with smart devices (IoT) on your local network. It uses mDNS/zeroconf to find devices, displays their information, and provides interactive prompts for device-specific actions.
 
 ## Features
 - **Network scanning:** Discovers all mDNS service types and browses each for devices in parallel.
 - **Device enrichment:** Resolves hostnames, IP addresses, MAC addresses, and vendor info.
 - **Interactive REPL:** Lets you interact with discovered devices using modular handlers (Chromecast, Hue, Sonos, MQTT, HTTP, UPNP, etc.).
-- **Extensible:** Easily add new device handlers for other protocols or device types.
 - **Rich output:** Optionally displays results in formatted tables using the Rich library.
 
 ## Installation
